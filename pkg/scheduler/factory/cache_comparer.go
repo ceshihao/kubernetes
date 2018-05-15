@@ -27,7 +27,7 @@ import (
 	corelisters "k8s.io/client-go/listers/core/v1"
 	v1beta1 "k8s.io/client-go/listers/policy/v1beta1"
 	"k8s.io/kubernetes/pkg/scheduler/core"
-	"k8s.io/kubernetes/pkg/scheduler/schedulercache"
+	schedulercache "k8s.io/kubernetes/pkg/scheduler/cache"
 )
 
 type cacheComparer struct {

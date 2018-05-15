@@ -50,7 +50,7 @@ import (
 	_ "k8s.io/kubernetes/pkg/scheduler/algorithmprovider"
 	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
 	"k8s.io/kubernetes/pkg/scheduler/factory"
-	"k8s.io/kubernetes/pkg/scheduler/schedulercache"
+	schedulercache "k8s.io/kubernetes/pkg/scheduler/cache"
 	"k8s.io/kubernetes/test/integration/framework"
 )
 
